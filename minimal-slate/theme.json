@@ -1,0 +1,15 @@
+{
+  "id": "minimal-slate",
+  "name": "极简静谧",
+  "accent": {
+    "mode": "preset",
+    "preset": "indigo"
+  },
+  "variant": "neutral",
+  "recolor": false,
+  "ui": {
+    "nav": {
+      "tapMotion": "pop"
+    }
+  }
+}

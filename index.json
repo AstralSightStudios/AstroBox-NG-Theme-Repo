@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "updatedAt": "2026-09-27T00:00:00Z",
+  "themes": [
+    {
+      "id": "cyberpunk-neon",
+      "name": "赛博霓虹",
+      "version": "1.0.0",
+      "author": "AstroBox Official",
+      "description": "赛博朋克霓虹光影，高对比暗夜与电光青色调，包含专属导航栏与按钮动效",
+      "folder": "cyberpunk-neon",
+      "accent": {
+        "mode": "preset",
+        "preset": "cyan"
+      },
+      "variant": "vibrant",
+      "recolor": true,
+      "packageUrl": "cyberpunk-neon/cyberpunk-neon.abtheme",
+      "manifest": {
+        "id": "cyberpunk-neon",
+        "name": "赛博霓虹",
+        "version": "1.0.0",
+        "author": "AstroBox Official",
+        "description": "赛博朋克霓虹光影，高对比暗夜与电光青色调，包含专属导航栏与按钮动效",
+        "accent": {
+          "mode": "preset",
+          "preset": "cyan"
+        },
+        "variant": "vibrant",
+        "recolor": true,
+        "packageUrl": "cyberpunk-neon/cyberpunk-neon.abtheme",
+        "ui": {
+          "nav": {
+            "tapMotion": "pop"
+          },
+          "buttons": {
+            "primary": {
+              "press": {
+                "halo": "#00f0ff"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "aurora-borealis",
+      "name": "极光之境",
+      "version": "1.0.0",
+      "author": "AstroBox Community",
+      "description": "幽邃冷绿与极光紫交织的唯美夜空主题",
+      "folder": "aurora-borealis",
+      "accent": {
+        "mode": "preset",
+        "preset": "teal"
+      },
+      "variant": "expressive",
+      "recolor": true,
+      "packageUrl": "aurora-borealis/aurora-borealis.abtheme",
+      "manifest": {
+        "id": "aurora-borealis",
+        "name": "极光之境",
+        "version": "1.0.0",
+        "author": "AstroBox Community",
+        "description": "幽邃冷绿与极光紫交织的唯美夜空主题",
+        "accent": {
+          "mode": "preset",
+          "preset": "teal"
+        },
+        "variant": "expressive",
+        "recolor": true,
+        "packageUrl": "aurora-borealis/aurora-borealis.abtheme",
+        "ui": {
+          "nav": {
+            "tapMotion": "bounce"
+          },
+          "buttons": {
+            "primary": {
+              "press": {
+                "halo": "#2dd4bf"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "minimal-slate",
+      "name": "极简静谧",
+      "version": "1.0.0",
+      "author": "AstroBox Community",
+      "description": "克制淡雅的靛蓝灰质感，专心当下",
+      "folder": "minimal-slate",
+      "accent": {
+        "mode": "preset",
+        "preset": "indigo"
+      },
+      "variant": "neutral",
+      "recolor": false,
+      "packageUrl": "minimal-slate/minimal-slate.abtheme",
+      "manifest": {
+        "id": "minimal-slate",
+        "name": "极简静谧",
+        "version": "1.0.0",
+        "author": "AstroBox Community",
+        "description": "克制淡雅的靛蓝灰质感，专心当下",
+        "accent": {
+          "mode": "preset",
+          "preset": "indigo"
+        },
+        "variant": "neutral",
+        "recolor": false,
+        "packageUrl": "minimal-slate/minimal-slate.abtheme",
+        "ui": {
+          "nav": {
+            "tapMotion": "pop"
+          }
+        }
+      }
+    }
+  ]
+}

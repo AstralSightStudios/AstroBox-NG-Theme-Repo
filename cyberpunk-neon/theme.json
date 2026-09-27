@@ -1,0 +1,22 @@
+{
+  "id": "cyberpunk-neon",
+  "name": "赛博霓虹",
+  "accent": {
+    "mode": "preset",
+    "preset": "cyan"
+  },
+  "variant": "vibrant",
+  "recolor": true,
+  "ui": {
+    "nav": {
+      "tapMotion": "pop"
+    },
+    "buttons": {
+      "primary": {
+        "press": {
+          "halo": "#00f0ff"
+        }
+      }
+    }
+  }
+}
