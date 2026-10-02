@@ -1,0 +1,117 @@
+{
+  "$schema": "https://astrobox.app/theme.schema.json",
+  "id": "mygo",
+  "name": "MyGO!!!!!",
+  "version": "1.0.0",
+  "author": "AstroBox Community",
+  "description": "迷うことに迷わない。MyGO!!!!! 乐队主题装扮，包含定制导航栏、千早爱音按压动效、舞台横幅、创可贴进度条与西瓜虫加载动效。",
+  "accent": {
+    "mode": "custom",
+    "color": "#3388BB"
+  },
+  "preview": "preview.png",
+  "packageUrl": "mygo/mygo.abtheme",
+  "ui": {
+    "nav": {
+      "background": {
+        "asset": "nav-bg.svg",
+        "fit": "fill",
+        "anchor": "top",
+        "overflow": 36,
+        "glass": true
+      },
+      "iconSize": 52,
+      "activeText": "#3388BB",
+      "tapMotion": "bounce",
+      "items": {
+        "explore": {
+          "icon": "nav-tomori.webp",
+          "activeIcon": "nav-tomori-on.webp"
+        },
+        "resource": {
+          "icon": "nav-anon.webp",
+          "activeIcon": "nav-anon-on.webp"
+        },
+        "plugin": {
+          "icon": "nav-rana.webp",
+          "activeIcon": "nav-rana-on.webp"
+        },
+        "settings": {
+          "icon": "nav-soyo.webp",
+          "activeIcon": "nav-soyo-on.webp"
+        }
+      }
+    },
+    "buttons": {
+      "primary": {
+        "fill": {
+          "gradient": {
+            "from": "#4B9FD0",
+            "to": "#2D78AA",
+            "angle": 120
+          }
+        },
+        "text": "#FFFFFF",
+        "press": {
+          "scale": 0.96,
+          "halo": "#77BBDD"
+        }
+      },
+      "download": {
+        "press": {
+          "asset": "press-anon.webp",
+          "duration": 1000,
+          "outset": 40,
+          "fit": "contain"
+        }
+      }
+    },
+    "banners": {
+      "explore": {
+        "asset": "banner-stage.webp",
+        "fade": 110,
+        "narrow": {
+          "mode": "cover",
+          "anchor": "center",
+          "scrim": 0.5
+        },
+        "wide": {
+          "anchor": "top"
+        }
+      }
+    },
+    "cards": {
+      "all": {
+        "border": {
+          "color": "#3388BB38",
+          "width": 1
+        },
+        "progress": {
+          "track": "#3388BB24",
+          "height": 8,
+          "radius": 4,
+          "thumb": "progress-bandaid.svg",
+          "thumbSize": 26
+        }
+      },
+      "kinds": {
+        "storage": {
+          "progress": {
+            "fill": {
+              "gradient": {
+                "from": "#77BBDD",
+                "to": "#3388BB",
+                "angle": 90
+              }
+            }
+          }
+        }
+      }
+    },
+    "loading": {
+      "asset": "loading-pillbug.svg",
+      "size": 32,
+      "spin": true
+    }
+  }
+}

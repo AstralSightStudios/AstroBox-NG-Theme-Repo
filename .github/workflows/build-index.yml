@@ -1,0 +1,56 @@
+name: Build Theme Index
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "index.json"
+      - "index.txt"
+      - "README.md"
+      - ".github/**"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate index.json and index.txt
+        run: node scripts/build-index.mjs
+
+      - name: Check for changes (Pull Request)
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ -n "$(git status --porcelain index.json index.txt)" ]; then
+            echo "::notice ::Index files changed. They will be auto-generated and committed after merging to main."
+          fi
+
+      - name: Commit and push changes (Push / Dispatch)
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain index.json index.txt)" ]; then
+            git add index.json index.txt
+            git commit -m "chore: auto-generate index.json and index.txt [skip ci]"
+            git push
+          else
+            echo "Index files are already up to date. No commit needed."
+          fi

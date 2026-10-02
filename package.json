@@ -1,0 +1,11 @@
+{
+  "name": "astrobox-ng-theme-repo",
+  "version": "1.0.0",
+  "description": "AstroBox Theme Market Repository",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-index.mjs",
+    "check": "node scripts/build-index.mjs --check"
+  },
+  "license": "MIT"
+}

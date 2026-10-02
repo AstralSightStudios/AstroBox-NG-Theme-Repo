@@ -1,119 +1,133 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T00:00:00Z",
+  "updatedAt": "2026-10-02T16:02:03.853Z",
   "themes": [
     {
-      "id": "cyberpunk-neon",
-      "name": "赛博霓虹",
+      "id": "mygo",
+      "name": "MyGO!!!!!",
       "version": "1.0.0",
-      "author": "AstroBox Official",
-      "description": "赛博朋克霓虹光影，高对比暗夜与电光青色调，包含专属导航栏与按钮动效",
-      "folder": "cyberpunk-neon",
+      "author": "AstroBox Community",
+      "description": "迷うことに迷わない。MyGO!!!!! 主题装扮",
+      "folder": "mygo",
       "accent": {
-        "mode": "preset",
-        "preset": "cyan"
+        "mode": "custom",
+        "color": "#3388BB"
       },
-      "variant": "vibrant",
-      "recolor": true,
-      "packageUrl": "cyberpunk-neon/cyberpunk-neon.abtheme",
+      "preview": "mygo/preview.png",
+      "packageUrl": "mygo/mygo.abtheme",
       "manifest": {
-        "id": "cyberpunk-neon",
-        "name": "赛博霓虹",
+        "id": "mygo",
+        "name": "MyGO!!!!!",
         "version": "1.0.0",
-        "author": "AstroBox Official",
-        "description": "赛博朋克霓虹光影，高对比暗夜与电光青色调，包含专属导航栏与按钮动效",
+        "author": "AstroBox Community",
+        "description": "迷うことに迷わない。MyGO!!!!! 主题装扮",
         "accent": {
-          "mode": "preset",
-          "preset": "cyan"
+          "mode": "custom",
+          "color": "#3388BB"
         },
-        "variant": "vibrant",
-        "recolor": true,
-        "packageUrl": "cyberpunk-neon/cyberpunk-neon.abtheme",
+        "preview": "mygo/preview.png",
+        "packageUrl": "mygo/mygo.abtheme",
         "ui": {
           "nav": {
-            "tapMotion": "pop"
+            "background": {
+              "asset": "nav-bg.svg",
+              "fit": "fill",
+              "anchor": "top",
+              "overflow": 36,
+              "glass": true
+            },
+            "iconSize": 52,
+            "activeText": "#3388BB",
+            "tapMotion": "bounce",
+            "items": {
+              "explore": {
+                "icon": "nav-tomori.webp",
+                "activeIcon": "nav-tomori-on.webp"
+              },
+              "resource": {
+                "icon": "nav-anon.webp",
+                "activeIcon": "nav-anon-on.webp"
+              },
+              "plugin": {
+                "icon": "nav-rana.webp",
+                "activeIcon": "nav-rana-on.webp"
+              },
+              "settings": {
+                "icon": "nav-soyo.webp",
+                "activeIcon": "nav-soyo-on.webp"
+              }
+            }
           },
           "buttons": {
             "primary": {
+              "fill": {
+                "gradient": {
+                  "from": "#4B9FD0",
+                  "to": "#2D78AA",
+                  "angle": 120
+                }
+              },
+              "text": "#FFFFFF",
               "press": {
-                "halo": "#00f0ff"
+                "scale": 0.96,
+                "halo": "#77BBDD"
+              }
+            },
+            "download": {
+              "press": {
+                "asset": "press-anon.webp",
+                "duration": 1000,
+                "outset": 40,
+                "fit": "contain"
               }
             }
-          }
-        }
-      }
-    },
-    {
-      "id": "aurora-borealis",
-      "name": "极光之境",
-      "version": "1.0.0",
-      "author": "AstroBox Community",
-      "description": "幽邃冷绿与极光紫交织的唯美夜空主题",
-      "folder": "aurora-borealis",
-      "accent": {
-        "mode": "preset",
-        "preset": "teal"
-      },
-      "variant": "expressive",
-      "recolor": true,
-      "packageUrl": "aurora-borealis/aurora-borealis.abtheme",
-      "manifest": {
-        "id": "aurora-borealis",
-        "name": "极光之境",
-        "version": "1.0.0",
-        "author": "AstroBox Community",
-        "description": "幽邃冷绿与极光紫交织的唯美夜空主题",
-        "accent": {
-          "mode": "preset",
-          "preset": "teal"
-        },
-        "variant": "expressive",
-        "recolor": true,
-        "packageUrl": "aurora-borealis/aurora-borealis.abtheme",
-        "ui": {
-          "nav": {
-            "tapMotion": "bounce"
           },
-          "buttons": {
-            "primary": {
-              "press": {
-                "halo": "#2dd4bf"
+          "banners": {
+            "explore": {
+              "asset": "banner-stage.webp",
+              "fade": 110,
+              "narrow": {
+                "mode": "cover",
+                "anchor": "center",
+                "scrim": 0.5
+              },
+              "wide": {
+                "anchor": "top"
               }
             }
-          }
-        }
-      }
-    },
-    {
-      "id": "minimal-slate",
-      "name": "极简静谧",
-      "version": "1.0.0",
-      "author": "AstroBox Community",
-      "description": "克制淡雅的靛蓝灰质感，专心当下",
-      "folder": "minimal-slate",
-      "accent": {
-        "mode": "preset",
-        "preset": "indigo"
-      },
-      "variant": "neutral",
-      "recolor": false,
-      "packageUrl": "minimal-slate/minimal-slate.abtheme",
-      "manifest": {
-        "id": "minimal-slate",
-        "name": "极简静谧",
-        "version": "1.0.0",
-        "author": "AstroBox Community",
-        "description": "克制淡雅的靛蓝灰质感，专心当下",
-        "accent": {
-          "mode": "preset",
-          "preset": "indigo"
-        },
-        "variant": "neutral",
-        "recolor": false,
-        "packageUrl": "minimal-slate/minimal-slate.abtheme",
-        "ui": {
-          "nav": {
-            "tapMotion": "pop"
+          },
+          "cards": {
+            "all": {
+              "border": {
+                "color": "#3388BB38",
+                "width": 1
+              },
+              "progress": {
+                "track": "#3388BB24",
+                "height": 8,
+                "radius": 4,
+                "thumb": "progress-bandaid.svg",
+                "thumbSize": 26
+              }
+            },
+            "kinds": {
+              "storage": {
+                "progress": {
+                  "fill": {
+                    "gradient": {
+                      "from": "#77BBDD",
+                      "to": "#3388BB",
+                      "angle": 90
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "loading": {
+            "asset": "loading-pillbug.svg",
+            "size": 32,
+            "spin": true
           }
         }
       }
