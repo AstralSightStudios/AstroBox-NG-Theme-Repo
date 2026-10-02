@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T16:02:03.853Z",
+  "updatedAt": "2026-10-02T16:05:07.871Z",
   "themes": [
     {
       "id": "mygo",
       "name": "MyGO!!!!!",
       "version": "1.0.0",
       "author": "AstroBox Community",
-      "description": "迷うことに迷わない。MyGO!!!!! 主题装扮",
+      "description": "迷うことに迷わない。MyGO!!!!! 乐队主题装扮，包含定制导航栏、千早爱音按压动效、舞台横幅、创可贴进度条与西瓜虫加载动效。",
       "folder": "mygo",
       "accent": {
         "mode": "custom",
@@ -20,7 +20,7 @@
         "name": "MyGO!!!!!",
         "version": "1.0.0",
         "author": "AstroBox Community",
-        "description": "迷うことに迷わない。MyGO!!!!! 主题装扮",
+        "description": "迷うことに迷わない。MyGO!!!!! 乐队主题装扮，包含定制导航栏、千早爱音按压动效、舞台横幅、创可贴进度条与西瓜虫加载动效。",
         "accent": {
           "mode": "custom",
           "color": "#3388BB"
